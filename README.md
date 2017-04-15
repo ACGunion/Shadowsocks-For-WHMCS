@@ -12,7 +12,7 @@ You can read the [Installation documentation](https://www.zntec.cn/archives/whmc
 
 Copyright 2016 ZNTEC.CN. Code released under [the MIT license](https://github.com/babytomas/Shadowsocks-For-WHMCS/blob/master/LICENSE).
 
-#关于修改
+# 关于修改
 
 修改了API中的公共函数,替换了已经被PHP弃用且删除的mysql函数,采用mysqli取代,现在API应当可以在PHP5.5及以上版本使用,甚至支持了PHP7.
 
@@ -35,7 +35,7 @@ HTTP前台方面,添加了两个图表,本以为可以高大上一些,结果我J
 
 修复了代码中部分KB->MB->GB的换算错误,但是不知道是否引入了新的错误..
 
-##问题和解决
+## 问题和解决
 
 原作者已经表明这是一个Demo项目,他不应该被用于生产环境,若需要全功能的SS模组,请购买商业版,这个代码没有经过检查,可能会有很多错误,如果我发现的话,可能会改,如果你发现的话,可以提出来,我尝试去改.这是一个学习PHP刚刚两个月用户写出来的代码,无法保证其可用性与安全性
 
@@ -43,6 +43,6 @@ HTTP前台方面,添加了两个图表,本以为可以高大上一些,结果我J
 
 如果你有好想法,你可以写出来,给原作者发Pull Requests.
 
-##截图
+## 截图
 
 ![前台面板](https://ws1.sinaimg.cn/large/879fc274ly1fenq3ucewzj20wv0jp0vc.jpg)
