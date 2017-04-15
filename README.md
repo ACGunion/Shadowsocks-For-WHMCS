@@ -46,7 +46,10 @@ HTTP前台方面,添加了两个图表,本以为可以高大上一些,结果我J
 ## 截图
 
 ![前台面板](https://raw.githubusercontent.com/ACGunion/Shadowsocks-For-WHMCS/master/screenshot.jpg)
+<<<<<<< HEAD
 
 ## TODO
 
 扫码连接功能存在问题.
+=======
+>>>>>>> a1e107ce6d8cabdeee3fe65ef2dc6ff15b2505d9
