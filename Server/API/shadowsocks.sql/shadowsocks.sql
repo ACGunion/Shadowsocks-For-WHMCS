@@ -36,7 +36,14 @@ CREATE TABLE IF NOT EXISTS `user` (
   `transfer_enable` bigint(20) NOT NULL,
   `port` int(11) NOT NULL,
   `switch` tinyint(4) NOT NULL DEFAULT '1',
-  `enable` tinyint(4) NOT NULL DEFAULT '1'
+  `enable` tinyint(4) NOT NULL DEFAULT '1',
+  `method` varchar(64) NOT NULL DEFAULT 'aes-256-cfb',
+  `protocol` varchar(128) DEFAULT 'origin',
+  `protocol_param` varchar(128) DEFAULT NULL,
+  `obfs` varchar(128) DEFAULT 'plain',
+  `obfs_param` varchar(128) DEFAULT NULL,
+  `is_multi_user` int(11) NOT NULL DEFAULT '0',
+  `admin_note` text DEFAULT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
